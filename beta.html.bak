@@ -3,16 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JAAG Project</title>
+<title>GEN Project</title>
 <style>
 /* Centering the title */
 h1 {
   text-align: center;
 }
+h2 {
+  text-align: center;
+}
 
 .banner {
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   background-color: #333;
   display: flex;
   justify-content: center;
@@ -115,14 +118,37 @@ footer {
   </a>
 </div>
 
-<h1>Welcome to JAAG</h1>
+<h1 style="font-size: 60px;">Welcome to G.E.N</h1>
+<br></br>
+<h2>This website is an experimental version of our project</h2>
+<br></br>
+<h2>The main goal of our project is to develop a user friendly website 
+that engages users along with allowing them to browse, create, and review events 
+efficiently. Ironically, myinvolvement is currently limited to allowing only organizations 
+to post events which leaves other non org related events undermined. As a result
+ people resort to social media as a way of spreading awareness for better or worse. 
+We think by allowing all students to create events permits for a more equal and 
+involving environment.  </h2>
+<br></br>
+<h2>Another aspect we would like to allow users to do is leave 
+reviews or even offer surveys based on how an event went. </h2>
+<br></br>
+<h2>If time allows we would also like to implement a room booking service which would 
+compliment event booking in the sense that people planning events need a space to 
+host the event. Ideally this would eliminate the need for two separate websites by combining the two.</h2>
+ <br></br>
+
+
 
 <div class="dropdown-container">
   <div class="dropdown">
     <button class="dropbtn">Services</button>
     <div class="dropdown-content">
-      <a href="room.html">Room Booking</a>
-      <a href="map.html">Map of Campus(es)</a>
+      <a href="room.html">Login</a>
+      <a href="">Events</a>
+	  <a href="">Reviews and Surveys</a>
+
+	  
     </div>
   </div>
 </div>
@@ -137,7 +163,7 @@ footer {
 
 <footer>
   <p>Contact Information:</p>
-  <p>Email: gdienos24@gmail.com</p>
+  <p>Email: gdienos@albany.edu</p>
   <p>Address: 1400 Washington Ave, Albany, New York</p>
 </footer>
 
